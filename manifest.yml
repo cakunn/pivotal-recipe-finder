@@ -1,0 +1,8 @@
+applications:
+- name: recipe-finder
+  instances: 1
+  memory: 1G
+  random-route: true
+  buildpacks: 
+  - https://github.com/cloudfoundry/nodejs-buildpack
+  
